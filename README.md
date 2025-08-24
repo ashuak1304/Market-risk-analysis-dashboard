@@ -209,18 +209,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Plotly**: For interactive visualizations
 - **Pandas Community**: For excellent data manipulation tools
 
-## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/market-risk-dashboard/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/market-risk-dashboard/discussions)
-- **Email**: your.email@example.com
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/market-risk-dashboard&type=Date)](https://star-history.com/#yourusername/market-risk-dashboard&Date)
-
----
-
-**⭐ If this project helps you, please give it a star on GitHub!**
-
-**Made with ❤️ by [Your Name]** 
