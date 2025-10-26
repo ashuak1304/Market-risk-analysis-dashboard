@@ -163,3 +163,24 @@ pip install pytest black flake8
 # Run tests
 python -m pytest
 
+
+# Format code
+black .
+
+# Lint code
+flake8 .
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Yahoo Finance**: For providing free financial data
+- **Streamlit**: For the amazing web framework
+- **Plotly**: For interactive visualizations
+- **Pandas Community**: For excellent data manipulation tools
+
+
+
