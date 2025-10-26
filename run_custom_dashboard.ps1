@@ -1,7 +1,7 @@
-# Market Risk Analysis Dashboard Launcher
+# Custom Market Risk Analysis Dashboard Launcher
 # PowerShell Script
 
-Write-Host "🚀 Starting Market Risk Analysis Dashboard..." -ForegroundColor Green
+Write-Host "🚀 Starting Custom Market Risk Analysis Dashboard..." -ForegroundColor Green
 Write-Host ""
 
 # Check if Python is installed
@@ -31,12 +31,12 @@ try {
 }
 
 Write-Host ""
-Write-Host "Launching dashboard..." -ForegroundColor Green
+Write-Host "Launching custom dashboard..." -ForegroundColor Green
 Write-Host "The dashboard will open in your default web browser." -ForegroundColor Cyan
 Write-Host "If it doesn't open automatically, go to: http://localhost:8501" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "Press Ctrl+C to stop the dashboard." -ForegroundColor Yellow
 Write-Host ""
 
-# Launch the dashboard
-streamlit run dashboard.py 
+# Launch the custom dashboard
+streamlit run custom_dashboard.py

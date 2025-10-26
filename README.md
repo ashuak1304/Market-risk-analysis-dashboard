@@ -1,13 +1,21 @@
-# 📊 Market Risk Analysis Dashboard
+# 📊 Custom Market Risk Analysis Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.29+-red.svg)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](https://github.com/yourusername/market-risk-dashboard)
 
-A comprehensive **Market Risk Analysis Dashboard** built with Python, Streamlit, and Plotly for analyzing portfolio risk metrics, calculating key financial ratios, and visualizing market data.
+A **Custom Market Risk Analysis Dashboard** with enhanced date handling, robust error management, and real-time data fetching from Yahoo Finance. Built with Python, Streamlit, and Plotly for professional portfolio risk analysis.
 
 ## 🚀 Features
+
+### ✨ **Custom Dashboard Features**
+- **📅 Smart Date Validation**: Prevents invalid date ranges (minimum 30 days, maximum 5 years)
+- **🔗 Connection Testing**: Test Yahoo Finance connectivity before running analysis
+- **📊 Real-time Progress**: Live updates during data fetching and calculations
+- **🎨 Enhanced UI**: Success/error messages with visual feedback
+- **🛡️ Robust Error Handling**: Graceful handling of network issues and data problems
+- **💾 Advanced Export**: Multi-sheet Excel exports with comprehensive data
 
 ### 📊 **Risk Metrics Calculation**
 - **Volatility Analysis**: Annualized volatility for each stock
@@ -59,9 +67,14 @@ cd market-risk-dashboard
 pip install -r requirements.txt
 ```
 
-### 3. **Run the Dashboard**
+### 3. **Run the Custom Dashboard**
 ```bash
-streamlit run dashboard.py
+streamlit run custom_dashboard.py
+```
+
+**Or use the PowerShell launcher:**
+```powershell
+.\run_custom_dashboard.ps1
 ```
 
 ### 4. **Access the Dashboard**
@@ -103,38 +116,6 @@ The dashboard comes pre-configured with a sample portfolio:
 ### **Adding New Risk Metrics**
 Edit `market_risk_analysis.py` to add custom calculations:
 
-```python
-def calculate_custom_metric(self, symbol):
-    # Your custom risk metric calculation
-    pass
-```
-
-### **Modifying Dashboard Layout**
-Edit `dashboard.py` to change the UI structure and add new visualizations.
-
-### **Configuration Options**
-Edit `config.py` to modify default settings, colors, and thresholds.
-
-## 📁 Project Structure
-
-```
-market-risk-dashboard/
-├── 📁 core/
-│   ├── market_risk_analysis.py    # Main analysis engine
-│   └── config.py                  # Configuration settings
-├── 📁 web/
-│   └── dashboard.py               # Streamlit web interface
-├── 📁 scripts/
-│   ├── run_dashboard.bat          # Windows batch script
-│   ├── run_dashboard.ps1          # PowerShell script
-│   └── test_installation.py      # Dependency checker
-├── 📁 docs/
-│   ├── README.md                  # This file
-│   └── QUICK_START.md            # Quick start guide
-├── requirements.txt               # Python dependencies
-├── .gitignore                    # Git ignore rules
-└── LICENSE                       # Project license
-```
 
 ## 🔍 Troubleshooting
 
@@ -168,15 +149,6 @@ python test_installation.py
 3. **Create Visualizations**: Build your custom dashboard
 4. **Set up Refresh**: Schedule automatic data updates
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **Push to the branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
 
 ### **Development Setup**
 ```bash
@@ -191,36 +163,3 @@ pip install pytest black flake8
 # Run tests
 python -m pytest
 
-# Format code
-black .
-
-# Lint code
-flake8 .
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Yahoo Finance**: For providing free financial data
-- **Streamlit**: For the amazing web framework
-- **Plotly**: For interactive visualizations
-- **Pandas Community**: For excellent data manipulation tools
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/market-risk-dashboard/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/market-risk-dashboard/discussions)
-- **Email**: your.email@example.com
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/market-risk-dashboard&type=Date)](https://star-history.com/#yourusername/market-risk-dashboard&Date)
-
----
-
-**⭐ If this project helps you, please give it a star on GitHub!**
-
-**Made with ❤️ by [Your Name]** 
